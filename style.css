@@ -1,0 +1,204 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Cinzel&family=Monoton&family=Playfair+Display&family=Smokum&display=swap');
+
+body{
+    background-color: black;
+}
+img {
+    width: 100%;
+    height: 240px;
+    background-color: black;
+  }
+#navbar-example2 {
+    width: 100%;
+    color: white;
+    background-color: black;
+}
+#navbar-example2 i {
+    color: rgb(20, 146, 129);
+    font-size: 30px;
+  }
+.navbar-brand {
+    font-size: 30px;
+    color: rgb(20, 146, 129);
+    position: absolute;
+    left: 47px;
+    top: 6px;
+    font-family: monoton;
+}
+.navbar-brand span {
+    font-size: 30px;
+    color: rgb(201, 222, 219);
+  }
+#navbar-example2 ul li a {
+    color: white;
+    font-size: 20px;
+}
+#navbar-example2 ul li a:hover {
+    color: rgb(20, 146, 129);
+  }
+.info h1 span {
+    color: rgb(20, 146, 129);
+    font-size: 70px;
+  }
+.info h5 {
+    margin-left: 120px;
+    text-align:start;
+  }
+.info p{
+    font-size: 1.2rem;
+    font-family: cinzel;
+}
+#r1 a{
+  text-decoration: none;
+  display:inline-block;
+  color: rgb(20, 146, 129);
+  font-size: 15px;
+  border: 2px rgb(20, 146, 129) solid;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+  /* margin-left: 263px; */
+}
+/* hobbies-sec */
+.hobbies-sec{
+  margin-top: 1rem;
+}
+.hobbies-sec .btn{
+  text-decoration: none;
+  display:inline-block;
+  color: rgb(20, 146, 129);
+  font-size: 15px;
+  border: 2px rgb(20, 146, 129) solid;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.hobbies-sec button{
+  text-decoration: none;
+  display:inline-block;
+  color: rgb(20, 146, 129);
+  font-size: 15px;
+  border: 2px rgb(20, 146, 129) solid;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+/* side bar */
+.sidebar{
+  width: 5%;
+  height: 250px;
+  position: fixed;
+  top: 150px;
+  right: 15px;
+  padding: 0px 10px;
+  background:  rgb(20, 146, 129);
+}
+.sidebarul{
+  list-style: none;
+  padding:10px 15px;
+  margin-top: 5px;
+
+}
+#sidebar1{
+  color:#fff;
+  padding: 10px;
+  justify-content:space-around ;
+}
+.sidebarul li{
+  margin: 30px 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color:rgb(7, 145, 115) ;
+  padding: 10px;
+}
+
+/* education */
+.education{
+  margin-top: 2rem;
+  
+}
+#scrollspyHeading3{
+  margin-bottom: 2rem;
+}
+#btn3{
+  text-decoration: none;
+  display:inline-block;
+  color: rgb(20, 146, 129);
+  font-size: 15px;
+  border: 2px rgb(20, 146, 129) solid;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+.footer-row{
+  display: flex;
+  justify-content: space-between;
+ 
+}
+.footer-row span{
+  margin-left: .3rem;
+  font-size:medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-row .left-footer h6{
+  margin-left: 1.4rem;
+}
+.footer-row h6{
+  margin-left: .3rem;
+  font-size:medium;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  background-color:rgb(20, 146, 129) ;
+}
+.c2{
+  margin-left: 400px;
+  padding: 80px;
+  color:rgb(20, 146, 129)  ;
+  font-size: 60px;
+}
+.p1{
+  font-family: cinzel;
+}
+.btn2{
+  text-decoration: none;
+  display:inline-block;
+  color: rgb(20, 146, 129);
+  font-size: 15px;
+  border: 2px rgb(20, 146, 129) solid;
+
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 20px;
+
+}
+.progress-bar{
+  background-color:rgb(20, 146, 129)  ;
+}
+@media(max-width:600px){
+ .c2{
+    margin-left: 0px;
+    font-size: 30px;
+  }
+
+}
+@media(min-width:600px){
+  .p1{
+    width: 70%;
+    margin-left: 200px;
+    font-size: 20px;
+  }
+  .hobbies-sec .btn{
+    margin-left:360px ;
+  }
+  .btn2{
+    margin-left: 370px;
+  }
+}

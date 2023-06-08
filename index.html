@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+  <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="style.css">
+  <!-- kit link -->
+  <script src="https://kit.fontawesome.com/7029318c9c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- scrollspy -->
+  <div class="container">
+    <div class="container w-100">
+      <div class="row">
+        <nav id="navbar-example2" class="navbar px-3 mb-3">
+          <div class="col-lg-5 md-3">
+            <i class="fa-solid fa-user"></i>
+
+            <a class="navbar-brand" href="#">So<span>na</span id="na1"></a>
+          </div>
+          <div class="col-lg-7 md-9 pe-10px">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading4">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading5">Skills</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="sidebar">
+      <ul class="sidebarul" id="sidebar1">
+        <br> <i class="fa-brands fa-github fa-2xl"></i> <br>
+        <br><i class="fa-brands fa-linkedin fa-2xl"></i> <br>
+        <br><i class="fa-solid fa-envelope fa-2xl"></i> <br>
+        <br><i class="fa-brands fa-instagram fa-2xl"></i>
+      </ul>
+
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
+      data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2" tabindex="0"
+      style="color:rgb(244, 244, 244) ;">
+      <h4 id="scrollspyHeading1"></h4>
+      <!--Home-->
+      <div class="container   " style="padding: 20px;">
+        <div class="row" id="r1">
+          <div class="info col-lg-9 md-8 p-40 w-60 " id="c1">
+            <h1> Hello I'm <br><span>Sona Jacob</span></h1>
+            <h5>Developer</h5>
+            <br>
+            <p style="width: 65%;">As a passionate and dedicated developer,i am committed to deliver high
+              quality,innovative solutions that drive meaningful impact and exceed client expectation</p>
+            <a href="">Download CV</a>
+
+          </div>
+          <!--Image-->
+
+          <div class="col-lg-3 md-4 pe-10">
+            <img src="./Img/3.png" alt="some problem">
+
+          </div>
+        </div>
+
+      </div>
+      <!--About-->
+
+      <div class="container ">
+        <div class="about-sec">
+          <h1 class="c2" id="scrollspyHeading2">About</h1>
+          <p class="p1">I am a fresher developer earer to kickstart my career in IT industry.I recently completed my
+            Bachelors degree in Computer Application from St.Thomas College ,Palai.During my academic journey, I developed
+            a strong passion for programming and problem-solving. I have hands-on experience in various programming
+            languages such as [List relevant languages], and I'm always excited to learn new technologies and expand my
+            skill set. I enjoy taking up coding challenges and working on projects that allow me to apply my knowledge
+            creatively.</p>
+          
+        </div>
+      </div>
+        <div class="hobbies-sec">
+          <div>
+            <a class="btn " data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false"
+              aria-controls="multiCollapseExample1">Hobbies</a>
+            <button class="btn  " type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2"
+              aria-expanded="false" aria-controls="multiCollapseExample2" id="btn1">Qualities</button>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div id="card " style="background-color: black;"class="card card-body">
+                  <ul >
+                    <li>Drawing</li>
+                    <li>Gardening</li>
+                    <li>Cooking</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div id="card" style="background-color: black; color: #fff;" class="card" style="width: 200px;">
+                  <ul>
+                    <li>Time Management</li>
+                    <li>Fast learner</li>
+                    <li>Team work</li>
+  
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
+      
+      <!--Education-->
+
+
+      <div class="container education w-100">
+        <h3 class="c2" id="scrollspyHeading3">Education</h3>
+        <div class="row" id="r2">
+          <div class="col-lg-4 " class="div22">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-chalkboard fa-2xl"></i> <br><br><br>
+
+            <h3 class="riv" style="font-family: cinzel;">Bachelors in Computer Applications</h3>
+
+            <p style="color:rgb(20, 146, 129)">(2023)</p>
+            <br><br>
+            <h4 style="font-family: cinzel;">St.Thomas College,Palai</h4>
+            <h6 style="color:rgb(20, 146, 129) ;">CGPA: 7.53</h6>
+
+          </div>
+          <div class="col-lg-4 " class="div22">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-chalkboard-user fa-2xl"></i> <br><br><br>
+            <h2 style="font-family: cinzel;">Higher Secondary School</h2>
+            <p style="color:rgb(20, 146, 129) ;">(2020)</p>
+            <br>
+            <h4 style="font-family: cinzel;">St. Mary's Higher Secondary School,Marykulam</h4>
+            <h6 style="color:rgb(20, 146, 129) ;">Percentage: 86%</h6>
+          </div>
+          <div class="col-lg-4 ">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i
+              class="fa-solid fa-school fa-2xl"></i> <br><br><br>
+            <h2 style="font-family: cinzel;">High School Education</h2>
+            <p style="color:rgb(20, 146, 129)">(2018)</p>
+            <br>
+            <h4 style="font-family: cinzel;">St. Mary's High School,Marykulam</h4>
+            <h6 style="color:rgb(20, 146, 129) ;">Percentage: 99%</h6>
+
+          </div>
+          <div>
+            <button class="btn btn2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample"
+              aria-expanded="false" aria-controls="collapseWidthExample">
+              Other Certificates
+            </button>
+          </div>
+          <div style="min-height: 120px;">
+            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+
+              <div class="card card-body" style="width: 300px;">
+                <ul class="u1">
+                  <li style="color:rgb(20, 146, 129) ; list-style: square;">MEARN Stack Development</li>
+                  <br>
+                  <li style="color:rgb(20, 146, 129) ;list-style: square;">Data Analystics Using R</li>
+                  <br>
+                  <li style="color:rgb(20, 146, 129) ;list-style: square;">Python Programming</li>
+                  <br>
+                  <li style="color:rgb(20, 146, 129) ; list-style: square;">Certificate For Web Technology</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      
+      <h3 class="c2" id="scrollspyHeading4">Project</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 md-4 " style="padding: 30px;">
+            <div class="card card1" style="width: 18rem; background-color: black;">
+              <img src="./Img/1.png" class="card-img-top" alt="..."
+                style="width:100% ; height: 100%;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(20, 146, 129);">Website</h5>
+                <p class="card-text" style="color:white ;">A website using HTML,CSS,Javascript,PHP for Road Complaint
+                  Management System including three modules. </p>
+                <a href="#" class="btn " id="btn3">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 md-4 " style="padding: 30px;">
+            <div class="card card1" style="width: 18rem; background-color: black;">
+              <img src="./Img/2.png" class="card-img-top" alt="..."
+                style="width:100% ; height: 100%;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(20, 146, 129);">Website</h5>
+                <p class="card-text" style="color:white ;">A webpage of Delicious Restaurant using HTML and CSS which
+                  include restaurent details,menu and contact </p>
+                <a href="#" class="btn " id="btn3">View Project</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 md-4 " style="padding: 30px;">
+            <div class="card card1" style="width: 18rem; background-color: black;">
+              <img src="./Img/4.png" class="card-img-top" alt="..."
+                style="width:100% ; height: 100%;">
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(20, 146, 129);">Website</h5>
+                <p class="card-text" style="color:white ;">A website for online civil supplies store using Python
+                  language which have three modules that is user supplies store and admin.</p>
+                <a href="#" class="btn " id="btn3">View Project</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--skills-->
+      <h3 id="scrollspyHeading5">Skills</h3>
+      <div class="row">
+        <div class="col" style="padding: 40px;">
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 95%">HTML</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 94%">CSS</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 60%">Java</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 85%">Javascript</div>
+          </div><br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar" style="width: 40% ">Python</div>
+          </div><br>
+
+        </div>
+
+      </div>
+
+      <!--footer-->
+      <footer>
+        <hr>
+        <div class="container  footer-row">
+          <div class="left-footer" >
+           <i class="fa fa-light fa-location-dot"><span> Idukki (685507)</span></i>
+           <h6>Kerala <br>India</h6>
+          </div>
+          <div class="right-footer">
+            <div >
+              <i class="fa fa-thin fa-phone"><span>7994444704</span></i> </div>
+             <div>
+               <i class="fa fa-thin fa-envelope"><span>sonajaco@gmail.com</span></i>
+             </div>
+          </div>
+           
+        </div>
+      </footer>
+
+    </div>
+  </div>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
