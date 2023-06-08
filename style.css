@@ -182,11 +182,27 @@ img {
 .progress-bar{
   background-color:rgb(20, 146, 129)  ;
 }
+.div33{
+  box-shadow: 0 4px 8px 0 rgba(175, 185, 182, 0.625), 0 6px 20px 0 rgba(103, 103, 103, 0.515);
+
+}
 @media(max-width:600px){
  .c2{
     margin-left: 0px;
     font-size: 30px;
   }
+  .img1{
+    height: 260px;
+    padding-top: 20px;
+  }
+  .div22{
+    border-bottom:1px solid white ;
+    border-top:1px solid white ;
+
+    padding-top: 50px;
+  }
+  
+
 
 }
 @media(min-width:600px){
